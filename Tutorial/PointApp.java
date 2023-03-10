@@ -16,8 +16,7 @@ class Point3D{
 public class PointApp {
 
 	public static void main(String[] args) {
-		Point3D coordinate1 = new Point3D(1,1,1);
-		
+		Point3D coordinate1 = new Point3D(1,1,1);		
 		System.out.println(coordinate1.calculateDistance());
 
 	}
